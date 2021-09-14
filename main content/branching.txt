@@ -11,3 +11,9 @@ for merging branch in master:
 go to master branch using git checkout master and
 git merge <branch name>
  
+
+for deleting branch after merging
+git branch -d <branch name> --> will delete merged branch
+
+for deleting branch which is not merged
+git branch -D <branch name>
