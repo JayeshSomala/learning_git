@@ -1,0 +1,38 @@
+this will be commited in my git repo
+rm -rf .git --> used to delete git repo
+josfhoos hbiusf
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+git stash save "name" --> this will save the stash and delete the changes in doc
+git stash list --> will show the list of stashes
+git stash pop --> to apply lastest stash
+git stash apply "stash name in list " --> to apply that stash
+now using stash
+iuhiuera 
+
+git diff --> to compare working directory with staging area
+once after commiting if we run git diff it will show nothing
+git diff --staged --> to compare previous two staging areas.
+
+
+git rm (file name) --> to remove file
+git rm --catche (file name) --> to untrack file
+
+git log --> shows all the commits
+git log -p --> shows all the changes in the commit
+git log -p -n(any number) --> shows the n number of commit details
+
+unstaginng:
+git restore --staged <file name> --> to unstage after adding the file
+
+unmodify:
+git checkout -- <file name> -->used when wanted to un-modify the file after staging
+git checkout -f  --> used when you want to remove all the changes done in present working directory.
+
+git alias:
+git config --global alias.st status --> after writing this whenever you use git st it will be git status.
+
+skipping staged state:
+git commit -a -m "commit message" --> this will automatically add and commit changes.
+
+
