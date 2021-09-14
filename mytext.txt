@@ -2,11 +2,14 @@ this will be commited in my git repo
 rm -rf .git --> used to delete git repo
 josfhoos hbiusf
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 git stash save "name" --> this will save the stash and delete the changes in doc
 git stash list --> will show the list of stashes
 git stash pop --> to apply lastest stash
 git stash apply "stash name in list " --> to apply that stash
 =======
+=======
+>>>>>>> Stashed changes
 now using stash
 
 >>>>>>> Stashed changes
