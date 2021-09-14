@@ -17,3 +17,7 @@ git branch -d <branch name> --> will delete merged branch
 
 for deleting branch which is not merged
 git branch -D <branch name>
+
+for making branches remote:
+go to the branch you want to make remote using "git branch <branch name>" then
+git push origin <branch name> 
