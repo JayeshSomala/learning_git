@@ -29,5 +29,7 @@ unmodify:
 git checkout -- <file name> -->used when wanted to un-modify the file after staging
 git checkout -f  --> used when you want to remove all the changes done in present working directory.
 
+git alias:
+git config --global alias.st status --> after writing this whenever you use git st it will be git status
 
 
