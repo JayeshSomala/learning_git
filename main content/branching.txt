@@ -6,3 +6,8 @@ git checkout master
 
 once any branch is created to go to that branch: 
 git checkout <branch name> 
+
+for merging branch in master:
+go to master branch using git checkout master and
+git merge <branch name>
+ 
