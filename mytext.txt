@@ -15,3 +15,11 @@ once after commiting if we run git diff it will show nothing
 git diff --staged --> to compare previous two staging areas.
 
 
+git rm (file name) --> to remove file
+git rm --catche (file name) --> to untrack file
+
+git log --> shows all the commits
+git log -p --> shows all the changes in the commit
+git log -p -n(any number) --> shows the n number of commit details
+
+
