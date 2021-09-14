@@ -1,0 +1,4 @@
+this will be commited in my git repo
+rm -rf .git --> used to delete git repo
+josfhoos hbiusf
+
