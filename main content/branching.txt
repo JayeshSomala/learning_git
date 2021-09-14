@@ -1,0 +1,8 @@
+to add new branch and shift to it:
+git checkout -b <branch name>
+
+returning to master branch:
+git checkout master
+
+once any branch is created to go to that branch: 
+git checkout <branch name> 
