@@ -22,4 +22,12 @@ git log --> shows all the commits
 git log -p --> shows all the changes in the commit
 git log -p -n(any number) --> shows the n number of commit details
 
+unstaginng:
+git restore --staged <file name> --> to unstage after adding the file
+
+unmodify:
+git checkout -- <file name> -->used when wanted to un-modify the file after staging
+git checkout -f  --> used when you want to remove all the changes done in present working directory.
+
+
 
