@@ -3,7 +3,7 @@ rm -rf .git --> used to delete git repo
 josfhoos hbiusf
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-git stash save "name" --> this will save the stash and delete the changes in doc
+git stash save "file name" --> this will save the stash and delete the changes in doc
 git stash list --> will show the list of stashes
 git stash pop --> to apply lastest stash
 git stash apply "stash name in list " --> to apply that stash
@@ -17,6 +17,11 @@ git diff --staged --> to compare previous two staging areas.
 
 git rm (file name) --> to remove file
 git rm --catche (file name) --> to untrack file
+
+for making files remote
+git remote add origin <url in github repo> -->this will make an origin in git repo
+git push origin <branch name> --> this will push the content into it.
+
 
 git log --> shows all the commits
 git log -p --> shows all the changes in the commit
